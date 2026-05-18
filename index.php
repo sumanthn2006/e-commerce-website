@@ -12,15 +12,6 @@
 
 <body>
 
-<h1 id="title">
-   My Shop
-</h1>
-
-<button onclick="changeText()">
-   Click Me
-</button>
-
-<script src="js/app.js"></script>
 
 </body>
 </html>
