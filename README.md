@@ -92,5 +92,41 @@ includes/db.php
 ---
 
 Happy coding! 🚀
+
+## Composer (for MongoDB driver)
+This project uses Composer autoloading in `index.php`:
+- `require __DIR__ . '/../vendor/autoload.php';`
+
+### Install Composer (recommended installer)
+Use one of the following examples:
+
+**1) Install to a custom directory**
+```bash
+php composer-setup.php --install-dir=bin
+```
+
+**2) Set the installer filename**
+```bash
+php composer-setup.php --filename=composer
+```
+
+**3) Install a specific version / channel (LTS)**
+```bash
+php composer-setup.php --2.2
+```
+
+**4) Help**
+```bash
+php composer-setup.php --help
+```
+
+### Install project dependencies
+From the project root (`E-COMERCEWEBSITE/`):
+```bash
+composer install
+```
+This will create the `vendor/` folder (including `vendor/autoload.php`).
+
+---
 <!-- check -->
 http://localhost/web_project/E-COMERCEWEBSITE/backend/index.php

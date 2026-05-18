@@ -1,3 +1,10 @@
+<?php
+
+include 'includes/db.php';
+
+echo "MongoDB Connected Successfully";
+
+?>
 <!DOCTYPE html>
 <html>
 
@@ -12,6 +19,9 @@
 
 <body>
 
+<main>
+
+</main>
 
 </body>
 </html>

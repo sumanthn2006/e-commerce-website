@@ -1,0 +1,14 @@
+{
+  "name": "e-commerce-website/e-commerce-website",
+  "description": "Simple e-commerce website built with PHP.",
+  "type": "project",
+  "require": {
+    "mongodb/mongodb": "^1.15"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  }
+}
+
